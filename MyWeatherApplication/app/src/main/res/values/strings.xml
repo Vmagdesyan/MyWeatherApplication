@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string-array name="toolbar_list">
+        <item>Настройки</item>
+        <item>Сменить город</item>
+    </string-array>
+    <string name="hello_world">Hello world!</string>
+    <string name="change_city">Выбрать город</string>
+    <string name="about_app">О приложении</string>
+    <string name="splash">Splash</string>
+    <string name="input_city">Введите город</string>
+    <string name="input">Ввод</string>
+    <string name="cancel">Отмена</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temp">Температура :</string>
+    <string name="city">Город:</string>
+    <string name="weather">Погода :</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

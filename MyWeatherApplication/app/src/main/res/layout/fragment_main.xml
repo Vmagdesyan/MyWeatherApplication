@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myweatherapplication.launch.MainFragment"
+    android:background="@color/splash_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/city"
+        android:text="@string/city"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageOfWeather"
+        android:layout_toEndOf="@+id/imageOfWeather" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/temp"
+        android:id="@+id/temp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/city"
+        android:layout_toRightOf="@+id/imageOfWeather"
+        android:layout_toEndOf="@+id/imageOfWeather" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/weather"
+        android:id="@+id/weather"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/temp"
+        android:layout_toRightOf="@+id/imageOfWeather"
+        android:layout_toEndOf="@+id/imageOfWeather" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/imageOfWeather"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listWeather"
+        android:layout_below="@+id/imageOfWeather"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
